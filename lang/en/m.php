@@ -1,7 +1,7 @@
 <?php
 return [
     'images_found' => 'We have found :num_images image|We have found :num_images images',
-    'ContentPress Regenerate Thumbnails' => 'ContentPress Regenerate Thumbnails',
+    'ValPress Regenerate Thumbnails' => 'ValPress Regenerate Thumbnails',
     'Regenerate Thumbnails' => 'Regenerate Thumbnails',
     'On this page you can regenerate thumbnails for all uploaded images in your application.' => 'On this page you can regenerate thumbnails for all uploaded images in your application.',
     'It is recommended you do this every time you install/uninstall a new plugin or theme, in order to allow them to register their own image sizes.' => 'It is recommended you do this every time you install/uninstall a new plugin or theme, in order to allow them to register their own image sizes.',

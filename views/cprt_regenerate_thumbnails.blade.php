@@ -1,7 +1,7 @@
 @extends('admin.layouts.base')
 
 @section('page-title')
-    <title>{{__('cprt::m.ContentPress Regenerate Thumbnails')}}</title>
+    <title>{{__('cprt::m.ValPress Regenerate Thumbnails')}}</title>
 @endsection
 
 @section('main')
@@ -16,7 +16,7 @@
 
     @include('admin.partials.notices')
 
-    @if(cp_current_user_can('list_media'))
+    @if(vp_current_user_can('list_media'))
         <div class="row">
             <div class="col-md-12">
                 <div class="tile">

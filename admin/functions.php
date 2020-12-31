@@ -1,6 +1,6 @@
 <?php
 
-use App\Helpers\CPML;
+use App\Helpers\VPML;
 use App\Helpers\ImageHelper;
 use App\Helpers\ImageResizeHelper;
 use App\Helpers\MediaHelper;
@@ -116,7 +116,7 @@ function cprt_plugin_resize_image( Model $mediaFile, array $newImageSizes, Media
                 else {
                     MediaFileMeta::create( [
                         'media_file_id' => $mediaFile->id,
-                        'language_id' => CPML::getDefaultLanguageID(),
+                        'language_id' => VPML::getDefaultLanguageID(),
                         'meta_name' => 'srcset',
                         'meta_value' => serialize( [ "$imageSizeName" => $mh->getBaseUploadPath( $newImagePath ) ] ),
                     ] );
